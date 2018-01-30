@@ -9,18 +9,12 @@ function theBeatlesPlay(musicianArray, instrumentArray){
 function johnLennonFacts(factArray){
   let i = 0;
   let modifiedFactArray = [];
-  while ( i < factArray.length){
+  while ( i < factArray.length-1){
     i++;
     modifiedFactArray.push(factArray[i] + '!!!');
   }
   return modifiedFactArray;
 }
-
-
-
-
-
-
 
 function iLoveTheBeatles(num){
   let biggestBeatleFan = [];
